@@ -1,0 +1,39 @@
+{
+  "guestList": [
+    {
+      "surname": "Wayne",
+      "name": "John",
+      "age": 25,
+      "gender": "male",
+      "attending": false
+    },
+    {
+      "surname": "Eisenhauer",
+      "name": "Dwight",
+      "age": 30,
+      "gender": "female",
+      "attending": false
+    },
+    {
+      "surname": "Queen",
+      "name": "Mum",
+      "age": 121,
+      "gender": "female",
+      "attending": false
+    },
+    {
+      "surname": "Krause",
+      "name": "Peter",
+      "age": 95,
+      "gender": "male",
+      "attending": false
+    },
+    {
+      "surname": "Eisenhauer",
+      "name": "Samantha",
+      "age": 60,
+      "gender": "female",
+      "attending": false
+    }
+  ]
+}

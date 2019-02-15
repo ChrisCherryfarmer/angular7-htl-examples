@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Operator can add guests to his guestlists","Open page of guest list for guestJohn-Wayne","SUCCESS","2018-04-18T17:14:17.183+02:00[Europe/Berlin]","0.0","2.29"
+"Operator can add guests to his guestlists","Open page of guest list for guestDwight-Eisenhauer","SUCCESS","2018-04-18T17:14:19.477+02:00[Europe/Berlin]","0.0","1.75"
+"Operator can add guests to his guestlists","Open page of guest list for guestSamantha-Eisenhauer","SUCCESS","2018-04-18T17:14:21.225+02:00[Europe/Berlin]","0.0","1.46"

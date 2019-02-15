@@ -1,0 +1,66 @@
+<div class="container">
+  <h1>Gästeliste</h1>
+
+  <h3>Eingeladene Gäste</h3>
+  <table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+      <th></th>
+      <th>Nachname</th>
+      <th>Vorname</th>
+      <th>Alter</th>
+      <th>Geschlecht</th>
+      <th></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr *ngFor="let guest of guests" (click)="toggleGuest(guest)" id="{{guest.name}}-{{guest.surname}}">
+      <td><input type="checkbox" [checked]="guest.attending"></td>
+      <td>{{ guest.surname }}</td>
+      <td>{{ guest.name }}</td>
+      <td>{{ guest.age }}</td>
+      <td>{{ guest.gender }}</td>
+      <td>
+        <button type="button" class="form-control" (click)="deleteGuest(guest)">Löschen</button>
+      </td>
+    </tr>
+    </tbody>
+
+  </table>
+
+
+  <h3>Zugesagt</h3>
+
+  <table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+      <th>Nachname</th>
+      <th>Vorname</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr *ngFor="let guest of guests | attendingFilter" id="attending-{{guest.name}}-{{guest.surname}}">
+      <td>{{ guest.surname }}</td>
+      <td>{{ guest.name }}</td>
+    </tr>
+    </tbody>
+
+  </table>
+
+  <!--<form>-->
+    <!--<div class="form-group">-->
+      <!--<div class="input-group">-->
+        <!--<button type="button" class="form-control" (click)="addDummyGuest()">Dummy Gast-->
+          <!--hinzufügen-->
+        <!--</button>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</form>-->
+
+
+</div>
+
+
+
