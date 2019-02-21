@@ -19,9 +19,8 @@
 
     <div class="form-group">
       <div *ngIf="resultValue">
-        <label>
-          Ergebnis: {{resultValue}}
-        </label>
+        <label for="end-result">Ergebnis</label>
+        <input type="number" class="form-control" name="end-result" id="end-result" disabled [(ngModel)]="resultValue">
       </div>
       <div *ngIf="!resultValue">
         <label class="alert-danger">
@@ -38,7 +37,7 @@
 
 
     <button type="button" class="btn btn-default" (click)="clear()">C</button>
-    <button type="submit" class="btn btn-default" (click)="result()">Berechnen</button>
+    <button type="submit" id="submit" class="btn btn-default" (click)="result()">Berechnen</button>
 
   </form>
 

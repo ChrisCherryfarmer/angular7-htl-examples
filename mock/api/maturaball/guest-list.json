@@ -15,6 +15,20 @@
       "attending": false
     },
     {
+      "surname": "Bucannan",
+      "name": "Johanna",
+      "age": 28,
+      "gender": "female",
+      "attending": false
+    },
+    {
+      "surname": "Mars",
+      "name": "Joy",
+      "age": 15,
+      "gender": "female",
+      "attending": false
+    },
+    {
       "surname": "Queen",
       "name": "Mum",
       "age": 121,
@@ -25,6 +39,27 @@
       "surname": "Krause",
       "name": "Peter",
       "age": 95,
+      "gender": "male",
+      "attending": false
+    },
+    {
+      "surname": "Bach",
+      "name": "Sebastian",
+      "age": 50,
+      "gender": "male",
+      "attending": false
+    },
+    {
+      "surname": "Planet",
+      "name": "Erika",
+      "age": 27,
+      "gender": "female",
+      "attending": false
+    },
+    {
+      "surname": "Smith",
+      "name": "Patrick",
+      "age": 40,
       "gender": "male",
       "attending": false
     },
